@@ -1,0 +1,13 @@
+CREATE DATABASE contact_db;
+
+USE contact_db;
+
+DROP TABLE Users;
+
+CREATE TABLE Users(
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    username NVARCHAR(80) UNIQUE NOT NULL,
+    password NVARCHAR(200) NOT NULL
+);
+
+SELECT * FROM Users;

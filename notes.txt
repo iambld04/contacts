@@ -1,0 +1,9 @@
+set JWT_ACCESS_TOKEN_EXPIRES      -- to check the global value of the variable present in .env file
+setx JWT_ACCESS_TOKEN_EXPIRES ""    -- to clear the value of global .env variable
+
+Using flask run: If you are using the flask run command to start your application, specify the port with the --port option:
+flask run --port=8080
+
+netstat -a    -- to check port is running or not
+
+
